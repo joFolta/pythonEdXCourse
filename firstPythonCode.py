@@ -9,4 +9,4 @@ print (x)
 x = x + 1
 print (x)
 print ('Good bye~!')
-exit()
+# exit()
