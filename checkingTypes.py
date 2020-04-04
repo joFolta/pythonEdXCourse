@@ -7,11 +7,17 @@ print(b, type(b))
 c = 'hello world'
 print(c, type(c))
 
+# Float Function
 d = 120
-print(d, type(d))
 # float() does not appear to "reassign" value of d; just RETURNS a floating point value for d
 print('using float function to return floating point value of d:')
 print(d, float(d), type(float(d)))
+
+# Int Function
+e = '999'
+# int() does not appear to "reassign" value of d; just RETURNS an integer value for e
+print('using integer function to return integer value of e:')
+print(e, int(e), type(int(e)))
 
 
 # python2 vs python3
