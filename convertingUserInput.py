@@ -1,4 +1,4 @@
-# Elevator floor Converter (European -> US)
+# Elevator Floor Converter (European -> US)
 
 # In European countries, the ground floor is the 0th floor, 
 # But in the US it is the 1st floor.
