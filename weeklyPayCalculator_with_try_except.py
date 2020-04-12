@@ -6,8 +6,8 @@ print('For error-catch or advanced mode, type "advanced"')
 try:
   modeSelection = input('Please select a mode: ')
 except:
+  print('Oops! Please enter a either "normal" or "advanced" typed w/in quotes.')
   try:
-    print('Oops! Please enter a either "normal" or "advanced" typed w/in quotes.')
     modeSelection = input('One more try. Please select a mode: ')
   except:
     print('WARNING: Invalid mode entered')
