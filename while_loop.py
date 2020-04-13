@@ -1,7 +1,13 @@
-def launchCountDown(initialNumber):
+def launchCountDown(startingNum):
+  counterPrinter(startingNum)
+  blastoff()
+
+def counterPrinter(initialNumber):
   while initialNumber > 0:
     print(initialNumber)
     initialNumber = initialNumber - 1
+  
+def blastoff():
   print('********************')
   print('********************')
   print('********************')
