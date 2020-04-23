@@ -15,3 +15,12 @@ for num in nums:
     smaller = num
 smallest = smaller
 print('The smallest number is '+ str(smallest))
+
+
+# "is" operator
+# implies "is the same as"
+# similar to, but strong than "=="
+# there is also an "is not" operator
+# us "is" for True False None
+
+# ie. "is" checks to see if the object is the same object, while == just checks if they are equivalent.
